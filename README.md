@@ -1,7 +1,7 @@
 goFAST
 ======
 
-[![GoDoc](https://godoc.org/github.com/co11ter/goFAST?status.svg)](https://godoc.org/github.com/co11ter/goFAST)
+[![GoDoc](https://godoc.org/github.com/runner28-code/goFAST?status.svg)](https://godoc.org/github.com/runner28-code/goFAST)
 
 goFAST is a Go implementation of the FAST Protocol (FIX Adapted for STreaming).
 Work-in-progress, expect bugs and missing features.
@@ -11,12 +11,12 @@ Installation
 
 Install the FAST library using the "go get" command:
 
-    go get github.com/co11ter/goFAST
+    go get github.com/runner28-code/goFAST
 
 Usage
 -----
 
-See [documentation](https://godoc.org/github.com/co11ter/goFAST) examples.
+See [documentation](https://godoc.org/github.com/runner28-code/goFAST) examples.
 
 Benchmark
 ---------
@@ -25,11 +25,11 @@ Run `go test -bench=.`. Only Decoder Benchmark is implemented.
     $ go test -bench=.
     goos: linux
     goarch: amd64
-    pkg: github.com/co11ter/goFAST
+    pkg: github.com/runner28-code/goFAST
     BenchmarkDecoder_DecodeReflection-4   	  200000	     10403 ns/op	     795 B/op	      68 allocs/op
     BenchmarkDecoder_DecodeReceiver-4     	  300000	      5453 ns/op	     321 B/op	      32 allocs/op
     PASS
-    ok  	github.com/co11ter/goFAST	4.977s
+    ok  	github.com/runner28-code/goFAST	4.977s
     
 TODO
 ----
